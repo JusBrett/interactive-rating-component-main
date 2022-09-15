@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background-color: hsl(216, 12%, 8%);
+font-size: 15px;
+font-family: 'Overpass', sans-serif;
+}
+h1{
+    color: hsl(0, 0%, 100%);
+    margin-top: 20px;
+}
+p{
+    color:  hsl(217, 12%, 63%);
+    margin-top: 16px;
+}
+img{
+    background-color:hsl(213, 19%, 23%);
+    padding: 10px;
+    border-radius: 50px;  
+}
+.container{
+    margin: 0 auto;
+    /* visibility: hidden; */
+    max-width: 400px;
+
+}
+.card{
+    background-color:hsl(213, 19%, 18%) ;
+    padding: 35px;
+    border-radius: 20px;
+}
+.text{
+    text-align: left;
+}
+.btns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    padding: 10px 0 ;
+}
+.btns button{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    background-color:hsl(213, 19%, 23%) ;
+    color:hsl(217, 12%, 63%) ;
+    padding: 16px;
+}
+.btns button:focus{
+    background-color: hsl(216, 12%, 54%);
+    color: white ;
+}
+.btns button:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+.submit-container{
+    display: flex;
+    align-items: center;
+}
+.btn-submit{
+    width: 350px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.btn-submit:hover{
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+}
