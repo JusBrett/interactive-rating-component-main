@@ -6,6 +6,7 @@
 
 body{
     display: flex;
+    flex-direction: column;
 justify-content: center;
 align-items: center;
 min-height: 100vh;
@@ -17,23 +18,28 @@ h1{
     color: hsl(0, 0%, 100%);
     margin-top: 20px;
 }
+h2{
+    color: hsl(0, 0%, 100%);
+}
+
 p{
     color:  hsl(217, 12%, 63%);
     margin-top: 16px;
 }
-img{
+.star-img{
     background-color:hsl(213, 19%, 23%);
     padding: 10px;
     border-radius: 50px;  
 }
-.container{
+.container, .thankyou-container{
     margin: 0 auto;
-    /* visibility: hidden; */
+    
     max-width: 400px;
 
 }
-.card{
-    background-color:hsl(213, 19%, 18%) ;
+.card, .thankyou-card {
+    /* background-color:hsl(213, 19%, 18%) ; */
+    background-image: linear-gradient(to bottom, #29323d, #28313b, #272f3a, #262e38, #252d37);
     padding: 35px;
     border-radius: 20px;
 }
@@ -82,4 +88,26 @@ img{
 .btn-submit:hover{
     color: hsl(25, 97%, 53%);
     background-color: white;
+}
+.thankyou-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    visibility: none;
+}
+.img-thankyou{
+    margin-bottom: 20px;
+}
+.gray{
+    background-color: hsl(213, 19%, 23%) ;
+    color: hsl(25, 97%, 53%);
+      padding: 7px 15px;
+      border-radius: 30px;
+      margin: 22px 0;
+}
+/* Hide thankyou-container */
+.hidden{
+    display: none;
 }
