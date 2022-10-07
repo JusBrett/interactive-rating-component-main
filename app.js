@@ -13,7 +13,7 @@ submitButton.addEventListener("click", function(){
 });
 
 // loop through buttons to get innerHTML
-let numberofbuttons = document.querySelectorAll(".btn").length;
+let numberofbuttons = rateSelectors.length;
 
 for(let i = 0; i < numberofbuttons; i++){
 

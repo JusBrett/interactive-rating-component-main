@@ -38,7 +38,7 @@ p{
 
 }
 .card, .thankyou-card {
-    /* background-color:hsl(213, 19%, 18%) ; */
+   
     background-image: linear-gradient(to bottom, #29323d, #28313b, #272f3a, #262e38, #252d37);
     padding: 35px;
     border-radius: 20px;
